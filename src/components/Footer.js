@@ -1,5 +1,5 @@
-// components/Footer.js
 import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -10,22 +10,14 @@ const Footer = () => {
           <p className="text-base text-gray-600">
             Accomplished Full Stack MERN Developer and Blockchain Specialist, dedicated to creating innovative solutions that drive business success.
           </p>
-          <div className="mt-4 flex space-x-4">
-            <a href="https://www.linkedin.com/in/peterdquinn31/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
-              <i className="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/PeterdQuinn" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700">
-              <i className="fab fa-github"></i>
-            </a>
-          </div>
         </div>
         <div>
           <h3 className="text-2xl font-semibold mb-4 text-blue-900">Quick Links</h3>
-          <ul className="space-y-2">
-            <li><a href="/" className="text-gray-600 hover:text-gray-900">Home</a></li>
-            <li><a href="/services" className="text-gray-600 hover:text-gray-900">Services</a></li>
-            <li><a href="/clients" className="text-gray-600 hover:text-gray-900">Clients</a></li>
-            <li><a href="/contact" className="text-gray-600 hover:text-gray-900">Contact</a></li>
+          <ul>
+            <li><Link href="/"><a className="text-gray-600 hover:text-gray-900">Home</a></Link></li>
+            <li><Link href="/services"><a className="text-gray-600 hover:text-gray-900">Services</a></Link></li>
+            <li><Link href="/clients"><a className="text-gray-600 hover:text-gray-900">Clients</a></Link></li>
+            <li><Link href="/contact"><a className="text-gray-600 hover:text-gray-900">Contact</a></Link></li>
           </ul>
         </div>
         <div>

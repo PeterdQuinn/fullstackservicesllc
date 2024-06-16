@@ -1,11 +1,10 @@
-// pages/services.js
 import React from 'react';
 import Layout from '../components/Layout';
 
 const Services = () => {
   return (
     <Layout>
-      <section id="ervices" className="py-20 bg-gray-50">
+      <section id="services" className="py-20 bg-gray-50">
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Our Services</h2>
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           
@@ -31,7 +30,7 @@ const Services = () => {
           
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-t-4 border-blue-600">
             <h3 className="text-2xl font-semibold mb-3 text-gray-800">Digital Business Card Services</h3>
-            <p className="text-base text-gray-600">Get professionally designed digital business cards that reflect your brand's unique identity. Perfect for networking in the digital age.</p>
+            <p className="text-base text-gray-600">Get professionally designed digital business cards that reflect your brand&apos;s unique identity. Perfect for networking in the digital age.</p>
           </div>
           
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-t-4 border-blue-600">
