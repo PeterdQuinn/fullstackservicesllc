@@ -9,7 +9,9 @@ const Home = () => {
       <section className="text-center py-20 bg-blue-900 text-white">
         <h1 className="text-5xl font-bold mb-4">Welcome to Full Stack Services LLC</h1>
         <p className="text-xl mb-8">Innovative SEO Approach: Pioneering the Future of Digital Marketing with Graphic Icons</p>
-        <Link href="/services"><a className="bg-white text-blue-900 font-bold py-3 px-6 rounded-full">Our Services</a></Link>
+        <Link href="/services" legacyBehavior>
+          <a className="bg-white text-blue-900 font-bold py-3 px-6 rounded-full">Our Services</a>
+        </Link>
       </section>
       <section id="about" className="py-20">
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">About Us</h2>
@@ -21,7 +23,7 @@ const Home = () => {
           </div>
           <div>
             {/* Using Next.js Image component for optimized image handling */}
-            <Image src="/path-to-your-image.jpg" alt="About Us" width={500} height={300} className="rounded-lg shadow-lg" />
+            <Image src="/fullstack.png" alt="About Us" width={500} height={300} className="rounded-lg shadow-lg" />
           </div>
         </div>
       </section>
