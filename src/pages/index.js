@@ -1,6 +1,6 @@
 // pages/index.js
 import React from 'react';
-import Layout from '../component/Layout';
+import Layout from '../components/Layout';
 
 const Home = () => {
   return (
