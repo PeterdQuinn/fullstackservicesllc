@@ -9,6 +9,7 @@ const Header = () => {
         <div className="flex space-x-6">
           <a href="/" className="hover:text-blue-700 transition-colors duration-300">Home</a>
           <a href="/services" className="hover:text-blue-700 transition-colors duration-300">Services</a>
+          <a href="/clients" className="hover:text-blue-700 transition-colors duration-300">Clients</a>
           <a href="/contact" className="hover:text-blue-700 transition-colors duration-300">Contact</a>
         </div>
       </nav>
