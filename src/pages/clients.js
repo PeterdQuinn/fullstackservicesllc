@@ -23,6 +23,11 @@ const clients = [
     description: 'For Junior’s Custom Towing, a meticulous SEO strategy was crafted and executed, focusing on enhancing visibility and engagement.',
     link: 'https://www.juniorscustomtowing.com/',
   },
+  {
+    name: 'Nomadic Cooling',
+    description: 'Collaborated on digital footprint enhancement through SEO and web development, focusing on product visibility and performance.',
+    link: 'https://www.nomadiccooling.com/',
+  },
 ];
 
 const Clients = () => {
