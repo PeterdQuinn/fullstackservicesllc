@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <Layout>
       <section className="text-center py-20 bg-white text-blue-900">
-        <h1 className="text-5xl font-bold mb-4">COMPREHENSIVE DIGITAL SOLUTIONS</h1>
-        <p className="text-xl mb-8">Innovative SEO Approach: Pioneering the Future of Digital Marketing with Graphic Icons</p>
+        <h1 className="text-5xl font-bold mb-4">COMPREHENSIVE DIGITAL SOLUTIONS FOR BUSINESSES</h1>
+        <p className="text-xl mb-8">B2B Digital Marketing: Leveraging AI for High-End Results and Future-Forward Strategies</p>
         <Link href="/services" legacyBehavior>
           <a className="bg-blue-900 text-white font-bold py-3 px-6 rounded-full">Our Services</a>
         </Link>
