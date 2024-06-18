@@ -1,5 +1,6 @@
 // pages/client-info.js
 import React, { useState } from 'react';
+import { useRouter } from 'next/router';
 
 const ClientInfo = () => {
   const [formData, setFormData] = useState({
@@ -11,6 +12,8 @@ const ClientInfo = () => {
     timeline: '',
   });
   const [file, setFile] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
   const handleChange = (e) => {
     setFormData({
@@ -25,6 +28,7 @@ const ClientInfo = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     const data = new FormData();
     data.append('file', file);
@@ -41,10 +45,11 @@ const ClientInfo = () => {
     });
 
     if (res.ok) {
-      alert('Information submitted successfully!');
+      router.push('/thank-you');
     } else {
       alert('Failed to submit information.');
     }
+    setLoading(false);
   };
 
   return (
@@ -60,7 +65,7 @@ const ClientInfo = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg bg-white text-gray-900"
             />
           </div>
           <div>
@@ -71,7 +76,7 @@ const ClientInfo = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg bg-white text-gray-900"
             />
           </div>
           <div>
@@ -81,7 +86,7 @@ const ClientInfo = () => {
               value={formData.projectType}
               onChange={handleChange}
               required
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg bg-white text-gray-900"
             >
               <option value="">Select a project type</option>
               <option value="Website Development">Website Development</option>
@@ -98,7 +103,7 @@ const ClientInfo = () => {
               value={formData.details}
               onChange={handleChange}
               required
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg bg-white text-gray-900"
             />
           </div>
           <div>
@@ -109,7 +114,7 @@ const ClientInfo = () => {
               value={formData.budget}
               onChange={handleChange}
               required
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg bg-white text-gray-900"
             />
           </div>
           <div>
@@ -120,7 +125,7 @@ const ClientInfo = () => {
               value={formData.timeline}
               onChange={handleChange}
               required
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg bg-white text-gray-900"
             />
           </div>
           <div>
@@ -129,11 +134,11 @@ const ClientInfo = () => {
               type="file"
               name="file"
               onChange={handleFileChange}
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg bg-white text-gray-900"
             />
           </div>
           <button type="submit" className="w-full bg-blue-900 text-white py-3 px-6 rounded-lg font-semibold">
-            Submit
+            {loading ? 'Submitting...' : 'Submit'}
           </button>
         </form>
       </div>
