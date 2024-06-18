@@ -29,7 +29,7 @@ const Contact = () => {
           <div>
             <h3 className="text-2xl font-semibold mb-4 text-gray-800">Contact Details</h3>
             <p className="text-base text-gray-600">Feel free to get in touch for collaborations or just a friendly hello.</p>
-            <p className="text-base mt-2 text-gray-600">Email: <a href="mailto:Peterdquinnsr@gmail.com" className="text-blue-500 hover:text-blue-700">Peterdquinnsr@gmail.com</a></p>
+            <p className="text-base mt-2 text-gray-600">Email: <a href="mailto:Owner@fullstackservicesllc.net" className="text-blue-500 hover:text-blue-700">Owner@fullstackservicesllc.net</a></p>
             <div className="mt-8">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509379!2d144.95373531561657!3d-37.8172097420217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5776a2e8a431b21!2sEnvato!5e0!3m2!1sen!2sau!4v1510913155911"

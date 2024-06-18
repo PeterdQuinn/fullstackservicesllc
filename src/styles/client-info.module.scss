@@ -1,0 +1,55 @@
+// styles/client-info.module.scss
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-family: 'Arial, sans-serif';
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-family: $font-family;
+  font-size: 2rem;
+  color: $primary-color;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-family: $font-family;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+
+  input, select, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: $font-family;
+  }
+
+  .submitButton {
+    padding: 15px;
+    background-color: $secondary-color;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darken($secondary-color, 10%);
+    }
+  }
+}

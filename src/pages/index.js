@@ -75,7 +75,19 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
+
+      <section id="client-info" className="py-20 bg-blue-900 text-white">
+        <h2 className="text-4xl font-bold text-center mb-8">Start Your Project with Us</h2>
+        <div className="container mx-auto px-4 text-center">
+          <p className="text-lg mb-8">
+            Ready to take your business to the next level? Provide us with your project details, and we will get started on delivering top-notch solutions tailored to your needs.
+          </p>
+          <Link href="/client-info" legacyBehavior>
+            <a className="bg-white text-blue-900 font-bold py-3 px-6 rounded-full">Get Started</a>
+          </Link>
+        </div>
+      </section>
+
       <Pricing />
     </Layout>
   );
