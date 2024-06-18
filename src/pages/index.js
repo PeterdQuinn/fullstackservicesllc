@@ -15,10 +15,10 @@ const Home = () => {
           <a className="bg-blue-900 text-white font-bold py-3 px-6 rounded-full">Our Services</a>
         </Link>
       </section>
-      
+
       <section id="overview" className="py-20 bg-blue-900 text-white">
         <h2 className="text-4xl font-bold text-center mb-8">Full Stack Services LLC</h2>
-        <div className="container mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="container mx-auto px-6 lg:px-10 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <p className="text-lg mb-8">
               At Full Stack Services LLC, we specialize in delivering comprehensive digital marketing and development solutions tailored to meet the unique needs of businesses. As a B2B company, our expertise in SEO, web development, and data analytics ensures that your business not only stands out but thrives in the digital landscape. We leverage advanced AI technologies to create impactful strategies that drive growth and enhance online visibility.
@@ -32,7 +32,7 @@ const Home = () => {
 
       <section id="social-media-strategy" className="py-20 bg-white text-blue-900">
         <h2 className="text-4xl font-bold text-center mb-8">Social Media Strategy Blueprint</h2>
-        <div className="container mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="container mx-auto px-6 lg:px-10 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-2xl font-semibold mb-4">Interactive Tools</h3>
             <p className="text-lg mb-3">Social Media Strategy Builder: Develop a customized social media plan with optimal content types, posting frequencies, and engagement strategies.</p>
@@ -47,7 +47,7 @@ const Home = () => {
 
       <section id="seo" className="py-20 bg-blue-900 text-white">
         <h2 className="text-4xl font-bold text-center mb-8">Data-Driven SEO</h2>
-        <div className="container mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="container mx-auto px-6 lg:px-10 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-2xl font-semibold mb-4">Interactive Tools</h3>
             <p className="text-lg mb-3">SEO Blueprint Generator: Generate a personalized SEO strategy with steps for technical optimizations, targeted content creation, and strategic link-building.</p>
@@ -62,13 +62,14 @@ const Home = () => {
 
       <section id="benefits" className="py-20 bg-white text-blue-900">
         <h2 className="text-4xl font-bold text-center mb-8">Why Choose Us?</h2>
-        <div className="container mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="container mx-auto px-6 lg:px-10 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-2xl font-semibold mb-4">Who Benefits From Our Services?</h3>
             <p className="text-lg mb-3">Small to Medium-Sized Enterprises (SMEs): Establish or enhance your online presence with a structured digital marketing strategy.</p>
             <p className="text-lg mb-3">E-commerce Businesses: Increase traffic, improve conversion rates, and optimize overall online store performance.</p>
             <p className="text-lg mb-3">Startups: Quickly establish a strong online presence and build brand awareness in a competitive market.</p>
             <p className="text-lg mb-3">Professional Service Providers: Attract new clients with local SEO and targeted content for law firms, dental offices, consultancy services, and more.</p>
+            <p className="text-lg mb-3">Wix to Wordpress migration</p>
           </div>
           <div className="flex justify-center">
             <Image src="/Fullstack2.jpeg" alt="Target Business Types" width={500} height={300} className="rounded-lg shadow-lg" />
@@ -78,7 +79,7 @@ const Home = () => {
 
       <section id="client-info" className="py-20 bg-blue-900 text-white">
         <h2 className="text-4xl font-bold text-center mb-8">Start Your Project with Us</h2>
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-6 text-center">
           <p className="text-lg mb-8">
             Ready to take your business to the next level? Provide us with your project details, and we will get started on delivering top-notch solutions tailored to your needs.
           </p>

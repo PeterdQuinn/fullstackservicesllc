@@ -1,5 +1,6 @@
 // components/Pricing.js
 import React from 'react';
+import Link from 'next/link';
 
 const services = [
   {
@@ -77,7 +78,7 @@ const services = [
     name: 'Custom Plans',
     price: 'Contact Us for Pricing',
     features: [
-      'Tailored to specific client needs',
+      'Wordpress to Wix Migration',
       'Mix and match services',
       'Flexible pricing based on selected features',
       'Personal consultation',
@@ -100,9 +101,9 @@ const Pricing = () => {
                   <li key={index} className="mb-2">{feature}</li>
                 ))}
               </ul>
-              <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300">
-                Learn More
-              </button>
+              <Link href="/services" legacyBehavior>
+                <a className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Learn More</a>
+              </Link>
             </div>
           ))}
         </div>
