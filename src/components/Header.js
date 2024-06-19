@@ -4,6 +4,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Header = () => {
+  const handleLinkClick = (link) => {
+    console.log(`${link} link clicked`);
+  };
+
   return (
     <header className="bg-blue-900 text-white p-4 md:p-6 shadow-lg">
       <nav className="container mx-auto flex flex-wrap items-center justify-between">
@@ -13,16 +17,16 @@ const Header = () => {
         </div>
         <div className="flex space-x-4 md:space-x-6 mt-2 md:mt-0 w-full md:w-auto justify-center md:justify-end">
           <Link href="/" legacyBehavior>
-            <a className="hover:text-gray-300 transition-colors duration-300">Home</a>
+            <a onClick={() => handleLinkClick('Home')} className="hover:text-gray-300 transition-colors duration-300">Home</a>
           </Link>
           <Link href="/services" legacyBehavior>
-            <a className="hover:text-gray-300 transition-colors duration-300">Services</a>
+            <a onClick={() => handleLinkClick('Services')} className="hover:text-gray-300 transition-colors duration-300">Services</a>
           </Link>
           <Link href="/clients" legacyBehavior>
-            <a className="hover:text-gray-300 transition-colors duration-300">Clients</a>
+            <a onClick={() => handleLinkClick('Clients')} className="hover:text-gray-300 transition-colors duration-300">Clients</a>
           </Link>
           <Link href="/contact" legacyBehavior>
-            <a className="hover:text-gray-300 transition-colors duration-300">Contact</a>
+            <a onClick={() => handleLinkClick('Contact')} className="hover:text-gray-300 transition-colors duration-300">Contact</a>
           </Link>
         </div>
       </nav>
