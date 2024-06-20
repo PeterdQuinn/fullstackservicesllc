@@ -19,13 +19,13 @@ const Header = () => {
           <Link href="/" legacyBehavior>
             <a onClick={() => handleLinkClick('Home')} className="hover:text-gray-300 transition-colors duration-300">Home</a>
           </Link>
-          <Link href="/services" legacyBehavior>
+          <Link href="/Services" legacyBehavior>
             <a onClick={() => handleLinkClick('services')} className="hover:text-gray-300 transition-colors duration-300">Services</a>
           </Link>
           <Link href="/clients" legacyBehavior>
             <a onClick={() => handleLinkClick('clients')} className="hover:text-gray-300 transition-colors duration-300">Clients</a>
           </Link>
-          <Link href="/contact" legacyBehavior>
+          <Link href="/Contact" legacyBehavior>
             <a onClick={() => handleLinkClick('contact')} className="hover:text-gray-300 transition-colors duration-300">Contact</a>
           </Link>
         </div>
