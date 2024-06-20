@@ -101,7 +101,7 @@ const Pricing = () => {
                   <li key={index} className="mb-2">{feature}</li>
                 ))}
               </ul>
-              <Link href="/services" legacyBehavior>
+              <Link href="/Services" legacyBehavior>
                 <a className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Learn More</a>
               </Link>
             </div>

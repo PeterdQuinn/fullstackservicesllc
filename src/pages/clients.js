@@ -1,4 +1,3 @@
-// pages/clients.js
 import React from 'react';
 import Layout from '../components/Layout';
 
@@ -27,6 +26,16 @@ const clients = [
     name: 'Nomadic Cooling',
     description: 'Collaborated on digital footprint enhancement through SEO and web development, focusing on product visibility and performance.',
     link: 'https://www.nomadiccooling.com/',
+  },
+  {
+    name: 'AZPVA',
+    description: 'We have been working with AZPVA.org for the past year to update their SEO practices and website design. This ongoing collaboration aims to enhance their online presence and user engagement through modern design and effective SEO strategies.',
+    link: 'https://azpva.org/',
+  },
+  {
+    name: 'Better Drug Test',
+    description: 'We started working with Better Drug Test at the beginning of this year. They hired us to improve their SEO and drive traffic to their website. This collaboration focuses on increasing their online visibility and attracting more visitors.',
+    link: 'https://www.betterdrugtest.com/',
   },
 ];
 
