@@ -14,7 +14,7 @@ const Home = () => {
         <p className="text-lg md:text-xl mb-8">
           B2B Digital Marketing: Leveraging AI for High-End Results and Future-Forward Strategies
         </p>
-        <Link href="/services" className="bg-blue-900 text-white font-bold py-3 px-6 rounded-full">
+        <Link href="/Services" className="bg-blue-900 text-white font-bold py-3 px-6 rounded-full">
           Our Services
         </Link>
       </section>
