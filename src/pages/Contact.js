@@ -47,7 +47,7 @@ const PrivacyPolicy = () => (
     <div className="mx-auto max-w-7xl pb-8 sm:px-6">
       <h1 className="text-2xl font-bold text-gray-700 m-4">Privacy Policy for Full Stack SEO Services</h1>
       <p className="text-gray-700 py-8">
-        This Privacy Policy ("Policy") outlines the practices of Full Stack LLC regarding the collection, use, and disclosure of personal information from clients ("Clients" or "you") who engage in the Full Stack SEO provided by Full Stack LLC.
+        This Privacy Policy (Policy) outlines the practices of Full Stack LLC regarding the collection, use, and disclosure of personal information from clients (Clients or you) who engage in the Full Stack SEO provided by Full Stack LLC.
       </p>
       <p className="text-gray-700 font-semibold pt-4">1. Information Collection:</p>
       <h6 className="text-gray-700 pt-6">Full Stack LLC may collect the following types of personal information from Clients:</h6>
@@ -70,23 +70,23 @@ const PrivacyPolicy = () => (
       </ul>
 
       <p className="text-gray-700 font-semibold pt-4">3. Information Sharing and Disclosure:</p>
-      <h6 className="text-gray-700 pt-6">Full Stack LLC may share Clients' personal information with third parties in the following circumstances:</h6>
+      <h6 className="text-gray-700 pt-6">Full Stack LLC may share Clients personal information with third parties in the following circumstances:</h6>
       <ul className="text-gray-700 p-2">
-        <li className="text-gray-700 pl-8 py-2">- With Full Stack LLC's authorized employees or contractors involved in providing the Full Stack SEO services</li>
+        <li className="text-gray-700 pl-8 py-2">- With Full Stack LLCs authorized employees or contractors involved in providing the Full Stack SEO services</li>
         <li className="text-gray-700 pl-8 py-2">- With trusted third-party Full Stack LLCs who assist in delivering specific aspects of the services (e.g., payment processing)</li>
         <li className="text-gray-700 pl-8 py-2">- When required by law, court order, or legal process</li>
-        <li className="text-gray-700 pl-8 py-2">- To enforce or protect Full Stack LLC's rights, property, or safety, or the rights, property, or safety of others</li>
-        <li className="text-gray-700 pl-8 py-2">- With Clients' consent</li>
+        <li className="text-gray-700 pl-8 py-2">- To enforce or protect Full Stack LLCs rights, property, or safety, or the rights, property, or safety of others</li>
+        <li className="text-gray-700 pl-8 py-2">- With Clients consent</li>
       </ul>
 
       <p className="text-gray-700 font-semibold pt-4">4. Data Security:</p>
       <h6 className="text-gray-700 pt-6">
-        Full Stack LLC takes reasonable measures to protect the personal information of Clients. However, no data transmission over the internet or electronic storage method is completely secure. Therefore, Full Stack LLC cannot guarantee the absolute security of Clients' personal information.
+        Full Stack LLC takes reasonable measures to protect the personal information of Clients. However, no data transmission over the internet or electronic storage method is completely secure. Therefore, Full Stack LLC cannot guarantee the absolute security of Clients personal information.
       </h6>
 
       <p className="text-gray-700 font-semibold pt-4">5. Data Retention:</p>
       <h6 className="text-gray-700 pt-6">
-        Full Stack LLC retains Clients' personal information for as long as necessary to fulfill the purposes outlined in this Policy, unless a longer retention period is required or permitted by law.
+        Full Stack LLC retains Clients personal information for as long as necessary to fulfill the purposes outlined in this Policy, unless a longer retention period is required or permitted by law.
       </h6>
 
       <p className="text-gray-700 font-semibold pt-4">6. Client Rights:</p>
@@ -107,7 +107,7 @@ const PrivacyPolicy = () => (
 
       <p className="text-gray-700 font-semibold pt-4">8. Updates to the Privacy Policy:</p>
       <h6 className="text-gray-700 pt-6">
-        Full Stack LLC reserves the right to update or modify this Privacy Policy at any time. Clients will be notified of any material changes to the Policy by email or through a notice on Full Stack LLC's website.
+        Full Stack LLC reserves the right to update or modify this Privacy Policy at any time. Clients will be notified of any material changes to the Policy by email or through a notice on Full Stack LLCs website.
       </h6>
 
       <p className="text-gray-700 font-semibold pt-4">9. Contact Information:</p>
