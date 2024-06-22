@@ -49,7 +49,7 @@ const Home = () => {
       </section>
 
       <section id="seo" className="py-20 bg-blue-900 text-white px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">AI Leveraged Services</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8"> Leveraged AI Services</h2>
         <div className="container mx-auto md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-xl md:text-2xl font-semibold mb-4">Interactive Tools</h3>

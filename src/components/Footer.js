@@ -1,29 +1,17 @@
-// components/Footer.js
 import React from 'react';
 
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white p-6">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <h3 className="text-xl font-semibold mb-2">Full Stack Services LLC</h3>
           <p className="text-sm">
             Full Stack Services LLC specializes in comprehensive digital solutions including SEO, web development, and data analytics. Our innovative approaches drive business success and enhance online presence.
           </p>
           <div className="mt-4">
-            <a href="https://www.linkedin.com/in/peterdquinn31/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 mr-4">
-              LinkedIn
-            </a>
+            LinkedIn: <a href="https://www.linkedin.com/in/peterdquinn31/" className="text-blue-400">Full Stack Services LLC</a>
           </div>
-        </div>
-        <div>
-          <h3 className="text-xl font-semibold mb-2">Quick Links</h3>
-          <ul>
-            <li><a href="/" className="hover:text-gray-300">About</a></li>
-            <li><a href="/Services" className="hover:text-gray-300">Services</a></li>
-            <li><a href="/clients" className="hover:text-gray-300">Clients</a></li>
-            <li><a href="/Contact" className="hover:text-gray-300">Contact</a></li>
-          </ul>
         </div>
         <div>
           <h3 className="text-xl font-semibold mb-2">Contact Us</h3>
