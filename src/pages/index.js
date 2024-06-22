@@ -34,31 +34,31 @@ const Home = () => {
       </section>
 
       <section id="social-media-strategy" className="py-20 bg-white text-blue-900 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Social Media Strategy Blueprint</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">AI Social Media Strategy</h2>
         <div className="container mx-auto md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-xl md:text-2xl font-semibold mb-4">Interactive Tools</h3>
-            <p className="text-lg mb-3">Social Media Strategy Builder: Develop a customized social media plan with optimal content types, posting frequencies, and engagement strategies.</p>
-            <p className="text-lg mb-3">Engagement Optimization Calculator: Improve your engagement rates by comparing your performance to industry benchmarks and receiving actionable insights.</p>
+            <p className="text-lg mb-3">Social Media Strategy Builder: Develop a customized social media plan with optimal content types, posting frequencies, and engagement strategies using AI-driven insights.</p>
+            <p className="text-lg mb-3">Engagement Optimization Calculator: Improve your engagement rates by comparing your performance to industry benchmarks and receiving actionable insights from AI analytics.</p>
           </div>
           <div>
             <h3 className="text-xl md:text-2xl font-semibold mb-4">Service Offering</h3>
-            <p className="text-lg mb-3">Custom Social Media Blueprint: Collaborate with our experts to create a strategic blueprint tailored to boost your visibility and interaction on various social media platforms.</p>
+            <p className="text-lg mb-3">AI Custom Social Media Blueprint: Collaborate with our AI experts to create a strategic blueprint tailored to boost your visibility and interaction on various social media platforms.</p>
           </div>
         </div>
       </section>
 
       <section id="seo" className="py-20 bg-blue-900 text-white px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Data-Driven SEO</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">AI SEO Services</h2>
         <div className="container mx-auto md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-xl md:text-2xl font-semibold mb-4">Interactive Tools</h3>
-            <p className="text-lg mb-3">SEO Blueprint Generator: Generate a personalized SEO strategy with steps for technical optimizations, targeted content creation, and strategic link-building.</p>
-            <p className="text-lg mb-3">Keyword Impact Forecaster: Discover high-potential keywords and evaluate their impact to optimize your content and SEO efforts.</p>
+            <p className="text-lg mb-3">SEO Blueprint Generator: Generate a personalized SEO strategy with steps for technical optimizations, targeted content creation, and strategic link-building, all enhanced with AI.</p>
+            <p className="text-lg mb-3">Keyword Impact Forecaster: Discover high-potential keywords and evaluate their impact to optimize your content and SEO efforts, backed by AI-driven data analysis.</p>
           </div>
           <div>
             <h3 className="text-xl md:text-2xl font-semibold mb-4">Service Offering</h3>
-            <p className="text-lg mb-3">Comprehensive Traffic Enhancement Blueprint: Work with our SEO specialists to develop a tailored plan that drives significant traffic to your website.</p>
+            <p className="text-lg mb-3">AI Comprehensive Traffic Enhancement Blueprint: Work with our AI SEO specialists to develop a tailored plan that drives significant traffic to your website through advanced data analytics.</p>
           </div>
         </div>
       </section>
@@ -72,6 +72,7 @@ const Home = () => {
             <p className="text-lg mb-3">E-commerce Businesses: Increase traffic, improve conversion rates, and optimize overall online store performance.</p>
             <p className="text-lg mb-3">Startups: Quickly establish a strong online presence and build brand awareness in a competitive market.</p>
             <p className="text-lg mb-3">Professional Service Providers: Attract new clients with local SEO and targeted content for law firms, dental offices, consultancy services, and more.</p>
+            <p className="text-lg mb-3">Marijuana Businesses: Navigate complex marketing regulations and enhance your digital presence in the cannabis industry with AI-driven strategies.</p>
           </div>
           <div className="flex justify-center">
             <Image src="/Fullstack2.jpeg" alt="Target Business Types" width={500} height={300} className="rounded-lg shadow-lg" />
@@ -80,10 +81,10 @@ const Home = () => {
       </section>
 
       <section id="client-info" className="py-20 bg-blue-900 text-white px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Start Your Project with Us</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Start Your Project with AI Leveraged Solutions</h2>
         <div className="container mx-auto text-center">
           <p className="text-lg mb-8">
-            Ready to take your business to the next level? Provide us with your project details, and we will get started on delivering top-notch solutions tailored to your needs.
+            Ready to take your business to the next level with AI-powered tools? Provide us with your project details, and we will get started on delivering top-notch solutions tailored to your needs.
           </p>
           <Link href="/client-info" className="bg-white text-blue-900 font-bold py-3 px-6 rounded-full">
             Get Started

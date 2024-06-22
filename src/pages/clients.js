@@ -37,6 +37,11 @@ const clients = [
     description: 'We started working with Better Drug Test at the beginning of this year. They hired us to improve their SEO and drive traffic to their website. This collaboration focuses on increasing their online visibility and attracting more visitors.',
     link: 'https://www.betterdrugtest.com/',
   },
+  {
+    name: 'Alpha Edge Technology Services',
+    description: 'Engaged in enhancing the digital presence and accessibility of Alpha Edge Technology Services through tailored SEO strategies and innovative web design.',
+    link: 'https://alphaedgetechnologys.com/',
+  },
 ];
 
 const Clients = () => {
